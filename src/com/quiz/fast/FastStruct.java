@@ -13,7 +13,7 @@ public class FastStruct {
         this.array = new Data[n];
         this.shadowArray = new Data[n];
         for (int i = 0; i < n; i++) {
-            this.array[i] = new Data(0);
+            this.array[i] = new Data();
             this.shadowArray[i] = memCell;
         }
     }
